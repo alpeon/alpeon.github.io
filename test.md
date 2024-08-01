@@ -1,7 +1,1 @@
-layout: page
-
-title: "test.md"
-
-permalink: /test
-
-# whatevs
+# This is a second page
