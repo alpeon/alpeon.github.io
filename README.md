@@ -3,7 +3,7 @@
 
 ## OpenNebula 7.0
 ### Practitioner - Self-Paced Lab Guide
-<p class="centred">
+
 All of the material in this training is copyright-protected and may not be published in other works without express written permission from OpenNebula Systems. 
 All trademarks are property of their respective owners.
 
@@ -57,7 +57,7 @@ All trademarks are property of their respective owners.
 
 #### 1.1.1
 
-Fill in <a href="https://opennebula.io/get-minione/" target="_blank">this form to get the link to download miniONE.
+Fill in <a href="https://opennebula.io/get-minione/" target="_blank">this form to get the link to download miniONE.</a>
 
 Copy the **minione** to any location on your Linux server that you had allocated for this task. 
 
