@@ -1,6 +1,6 @@
 title: Test GitHub Pages
 description: Testing github pages
 markdown: GFM
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: ust-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme 
