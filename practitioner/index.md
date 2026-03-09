@@ -1,6 +1,3 @@
-<!-- Intro Slide -->
-
-
 # OpenNebula 7.0
 ## Practitioner - Self-Paced Lab Guide
 
