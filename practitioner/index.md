@@ -1,7 +1,7 @@
 <!-- Intro Slide -->
 
 
-## OpenNebula 7.0
+# OpenNebula 7.0
 ### Practitioner - Self-Paced Lab Guide
 
 All of the material in this training is copyright-protected and may not be published in other works without express written permission from OpenNebula Systems. 
