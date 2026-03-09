@@ -86,7 +86,7 @@ Wait until the script is going to finish (~10m).
 
 Access the Sunstone interface on port 80/tcp and login as **oneadmin**.
 
-<img src="./resources/module1_lab1/s3.png" class="img_80_percent">
+<img src="resources/module1_lab1/s3.png">
     
 ---
 <br>
@@ -123,7 +123,7 @@ Access the Sunstone interface on port 80/tcp and login as **oneadmin**.
 
 Navigate to **System -> Groups** to access the Groups Management screen.
 
-<img src="./resources/module2_lab1/s1.png" class="img_80_percent">
+<img src="resources/module2_lab1/s1.png">
 
 ---
 <br>
@@ -132,7 +132,7 @@ Navigate to **System -> Groups** to access the Groups Management screen.
 
 From the Groups screen press **Create** to start the wizard. 
 
-<img src="./resources/module2_lab1/s2.png" class="img_80_percent">
+<img src="resources/module2_lab1/s2.png">
 
 ---
 <br>
@@ -147,7 +147,7 @@ Set **Authentication Type** to **core**.
 
 Choose the password you wish and press **Next**.
 
-<img src="./resources/module2_lab1/s3.png" class="img_70_percent">
+<img src="resources/module2_lab1/s3.png">
 
 ---
 <br>
@@ -156,7 +156,7 @@ Choose the password you wish and press **Next**.
 
 Leave **Permissions** as is and press **Next**.
 
-<img src="./resources/module2_lab1/s4.png" class="img_80_percent">
+<img src="resources/module2_lab1/s4.png">
 
 ---
 <br>
@@ -167,7 +167,7 @@ Set the **User view** as a **Default view**.
 
 Also enable the **User view** and press **Next**.
 
-<img src="./resources/module2_lab1/s5.png" class="img_80_percent">
+<img src="resources/module2_lab1/s5.png">
 
 ---
 <br>
@@ -176,7 +176,7 @@ Also enable the **User view** and press **Next**.
 
 Leave the **System** tab as is and press **Finish**.
 
-<img src="./resources/module2_lab1/s6.png" class="img_80_percent">
+<img src="resources/module2_lab1/s6.png">
 
 ---
 <br>
@@ -187,7 +187,7 @@ You should see the newly created group added to the list of groups.
 
 Note the **Group ID (#100)**, this may be a different ID in your environment!
 
-<img src="./resources/module2_lab1/s7.png" class="img_80_percent">
+<img src="resources/module2_lab1/s7.png">
 
 ---
 <br>
@@ -201,7 +201,7 @@ Note the **Group ID (#100)**, this may be a different ID in your environment!
 
 Navigate to **System -> Users** to access the Users Management screen.
 
-<img src="./resources/module2_lab1/s8.png" class="img_80_percent">
+<img src="resources/module2_lab1/s8.png">
 
 ---
 <br>
@@ -210,7 +210,7 @@ Navigate to **System -> Users** to access the Users Management screen.
 
 Press **Create** to enter the user creation wizard.
 
-<img src="./resources/module2_lab1/s9.png" class="img_80_percent">
+<img src="resources/module2_lab1/s9.png">
 
 ---
 <br>
@@ -223,7 +223,7 @@ Set Authentication to **core**.
 
 Set the password. In this guide we are going to assume that the password is set to **Pa$$w0rd**.
 
-<img src="./resources/module2_lab1/s10.png" class="img_80_percent">
+<img src="resources/module2_lab1/s10.png">
 
 ---
 <br>
@@ -232,7 +232,7 @@ Set the password. In this guide we are going to assume that the password is set 
 
 Set **cloud-users** as the **Primary Group**.
 
-<img src="./resources/module2_lab1/s11.png" class="img_80_percent">
+<img src="resources/module2_lab1/s11.png">
 
 ---
 <br>
@@ -241,7 +241,7 @@ Set **cloud-users** as the **Primary Group**.
 
 Leave the **Secondary Groups** empty and press **Finish**.
 
-<img src="./resources/module2_lab1/s12.png" class="img_80_percent">
+<img src="resources/module2_lab1/s12.png">
 
 ---
 <br>
@@ -252,7 +252,7 @@ You must end up having two users in the **cloud-users** group.
 
 One is **admin** and second is the **regular** user.
 
-<img src="./resources/module2_lab1/s13.png" class="img_80_percent">
+<img src="resources/module2_lab1/s13.png">
 
 ---
 <br>
@@ -266,7 +266,7 @@ One is **admin** and second is the **regular** user.
 
 Navigate to **Templates -> VM Templates**. 
 
-<img src="./resources/module2_lab1/s14.png" class="img_80_percent">
+<img src="resources/module2_lab1/s14.png">
 
 ---
 <br>
@@ -275,7 +275,7 @@ Navigate to **Templates -> VM Templates**.
 
 Select the **Alpine Linux 3.XX** VM Template from the template list.
 
-<img src="./resources/module2_lab1/s15.png" class="img_80_percent">
+<img src="resources/module2_lab1/s15.png">
 
 ---
 <br>
@@ -288,7 +288,7 @@ Change ownership to:
 
 Save changes by clicking the **tick** icon.
 
-<img src="./resources/module2_lab1/s16.png" class="img_80_percent">
+<img src="resources/module2_lab1/s16.png">
 
 ---
 <br>
@@ -297,7 +297,7 @@ Save changes by clicking the **tick** icon.
 
 Navigate to **Storage -> Images**.
 
-<img src="./resources/module2_lab1/s17.png" class="img_80_percent">
+<img src="resources/module2_lab1/s17.png">
 
 ---
 <br>
@@ -306,7 +306,7 @@ Navigate to **Storage -> Images**.
 
 Select the **Alpine Linux 3.XX** image.
 
-<img src="./resources/module2_lab1/s18.png" class="img_80_percent">
+<img src="resources/module2_lab1/s18.png">
 
 ---
 <br>
@@ -319,7 +319,7 @@ Change ownership to:
 
 Save changes by clicking the **tick** icon.
 
-<img src="./resources/module2_lab1/s19.png" class="img_80_percent">
+<img src="resources/module2_lab1/s19.png">
 
 ---
 <br>
@@ -333,7 +333,7 @@ Save changes by clicking the **tick** icon.
 
 Navigate to **Settings**.
 
-<img src="./resources/module2_lab1/s20.png" class="img_80_percent">
+<img src="resources/module2_lab1/s20.png">
 
 ---
 <br>
@@ -342,7 +342,7 @@ Navigate to **Settings**.
 
 Select **Security** and scroll down to the bottom of the page. Press the **Register authentication App** button.
 
-<img src="./resources/module2_lab1/s21.png" class="img_80_percent">
+<img src="resources/module2_lab1/s21.png">
 
 ---
 <br>
@@ -351,7 +351,7 @@ Select **Security** and scroll down to the bottom of the page. Press the **Regis
 
 Take your authentication app that can generate TOTP codes and scan the QR code. Enter the code and press **Add**.
 
-<img src="./resources/module2_lab1/s22.png" class="img_80_percent">
+<img src="resources/module2_lab1/s22.png">
 
 ---
 <br>
@@ -360,7 +360,7 @@ Take your authentication app that can generate TOTP codes and scan the QR code. 
 
 Once added you are going to get prompted to enter the code during the next loging attempt. 
 
-<img src="./resources/module2_lab1/s23.png" class="img_80_percent">
+<img src="resources/module2_lab1/s23.png">
 
 ---
 <br>
@@ -376,7 +376,7 @@ In order to access VMs that are owned by **cloud-user** - you must add a public 
 
 Navigate to **Settings -> Security** while being logged in as oneadmin and copy the public key.
 
-<img src="./resources/module2_lab1/s24.png" class="img_80_percent">
+<img src="resources/module2_lab1/s24.png">
 
 ---
 <br>
@@ -387,7 +387,7 @@ Login as cloud-user and navigate to **Settings -> Security**.
 
 Press edit the **SSH public key**.
 
-<img src="./resources/module2_lab1/s25.png" class="img_80_percent">
+<img src="resources/module2_lab1/s25.png">
 
 ---
 <br>
@@ -396,7 +396,7 @@ Press edit the **SSH public key**.
 
 Paste the key into the field.
 
-<img src="./resources/module2_lab1/s26.png" class="img_80_percent">
+<img src="resources/module2_lab1/s26.png">
 
 ---
 <br>
@@ -405,7 +405,7 @@ Paste the key into the field.
 
 Click anywhere outside to save the key.
 
-<img src="./resources/module2_lab1/s27.png" class="img_80_percent">
+<img src="resources/module2_lab1/s27.png">
 
 
 ---
@@ -441,7 +441,7 @@ Click anywhere outside to save the key.
 
 Navigate to **Infrastructure -> Hosts**.
 
-<img src="./resources/module3_lab1/s1.png" class="img_80_percent">
+<img src="resources/module3_lab1/s1.png">
 
 ---
 <br>
@@ -450,7 +450,7 @@ Navigate to **Infrastructure -> Hosts**.
 
 Press **Create** to start the wizard.
 
-<img src="./resources/module3_lab1/s2.png" class="img_80_percent">
+<img src="resources/module3_lab1/s2.png">
 
 ---
 <br>
@@ -459,7 +459,7 @@ Press **Create** to start the wizard.
 
 Set the IP to **127.0.0.1**.
 
-<img src="./resources/module3_lab1/s3.png" class="img_80_percent">
+<img src="resources/module3_lab1/s3.png">
 
 ---
 <br>
@@ -468,7 +468,7 @@ Set the IP to **127.0.0.1**.
 
 Add the new host to the **default** cluster.
 
-<img src="./resources/module3_lab1/s4.png" class="img_80_percent">
+<img src="resources/module3_lab1/s4.png">
 
 ---
 <br>
@@ -477,7 +477,7 @@ Add the new host to the **default** cluster.
 
 You now must have two hosts in the list - **127.0.0.1** and **localhost**.
 
-<img src="./resources/module3_lab1/s5.png" class="img_80_percent">
+<img src="resources/module3_lab1/s5.png">
 
 ---
 <br>
@@ -486,7 +486,7 @@ You now must have two hosts in the list - **127.0.0.1** and **localhost**.
 
 Select **localhost** and press the **Offline** button. 
 
-<img src="./resources/module3_lab1/s6.png" class="img_80_percent">
+<img src="resources/module3_lab1/s6.png">
 
 ---
 <br>
@@ -495,7 +495,7 @@ Select **localhost** and press the **Offline** button.
 
 The host must change the status light from **Green** to **Red**.
 
-<img src="./resources/module3_lab1/s7.png" class="img_80_percent">
+<img src="resources/module3_lab1/s7.png">
 
 ---
 <br>
@@ -509,7 +509,7 @@ The host must change the status light from **Green** to **Red**.
 
 Select the **127.0.0.1** and expand the info card.
 
-<img src="./resources/module3_lab1/s8.png" class="img_80_percent">
+<img src="resources/module3_lab1/s8.png">
 
 ---
 <br>
@@ -518,7 +518,7 @@ Select the **127.0.0.1** and expand the info card.
 
 Scroll down and add the key **TYPE** with the value **PRODUCTION**.
 
-<img src="./resources/module3_lab1/s9.png" class="img_80_percent">
+<img src="resources/module3_lab1/s9.png">
 
 ---
 <br>
@@ -527,7 +527,7 @@ Scroll down and add the key **TYPE** with the value **PRODUCTION**.
 
 Press anywhere to save the changes.
 
-<img src="./resources/module3_lab1/s10.png" class="img_80_percent">
+<img src="resources/module3_lab1/s10.png">
 
 ---
 <br>
@@ -563,7 +563,7 @@ Press anywhere to save the changes.
 
 Navigate to **Storage -> Marketplaces**.
 
-<img src="./resources/module5_lab1/s1.png" class="img_80_percent">
+<img src="resources/module5_lab1/s1.png">
 
 ---
 <br>
@@ -572,7 +572,7 @@ Navigate to **Storage -> Marketplaces**.
 
 Press **Create** to start the Marketplace wizard.
 
-<img src="./resources/module5_lab1/s2.png" class="img_80_percent">
+<img src="resources/module5_lab1/s2.png">
 
 ---
 <br>
@@ -583,7 +583,7 @@ Fill in Name and Description according to your preferences.
 
 Make sure to set **Storage Backend** to **OpenNebula Systems**.
 
-<img src="./resources/module5_lab1/s3.png" class="img_80_percent">
+<img src="resources/module5_lab1/s3.png">
 
 ---
 <br>
@@ -592,7 +592,7 @@ Make sure to set **Storage Backend** to **OpenNebula Systems**.
 
 Set **Endpoint URL for marketplace** to https://community-marketplace.opennebula.io/.
 
-<img src="./resources/module5_lab1/s4.png" class="img_80_percent">
+<img src="resources/module5_lab1/s4.png">
 
 ---
 <br>
@@ -603,7 +603,7 @@ Make sure that the status light is **green** on the newly added marketplace.
 
 **If your new marketplace shows 0 0, then Disable and Enable the marketplace.** 
 
-<img src="./resources/module5_lab1/s5.png" class="img_80_percent">
+<img src="resources/module5_lab1/s5.png">
 
 ---
 <br>
@@ -612,7 +612,7 @@ Make sure that the status light is **green** on the newly added marketplace.
 
 Logout from **oneadmin** and login as **cloud-user**.
 
-<img src="./resources/module5_lab1/s6.png" class="img_60_percent">
+<img src="resources/module5_lab1/s6.png">
 
 ---
 <br>
@@ -621,7 +621,7 @@ Logout from **oneadmin** and login as **cloud-user**.
 
 Navigate to **Storage -> Apps**.
 
-<img src="./resources/module5_lab1/s7.png" class="img_80_percent">
+<img src="resources/module5_lab1/s7.png">
 
 ---
 <br>
@@ -630,7 +630,7 @@ Navigate to **Storage -> Apps**.
 
 Search for **NixOS**. Select **NixOS** and press **Import**.
 
-<img src="./resources/module5_lab1/s8.png" class="img_80_percent">
+<img src="resources/module5_lab1/s8.png">
 
 ---
 <br>
@@ -639,7 +639,7 @@ Search for **NixOS**. Select **NixOS** and press **Import**.
 
 You can set the name for VM Template or Image as desired or leave as is.
 
-<img src="./resources/module5_lab1/s9.png" class="img_80_percent">
+<img src="resources/module5_lab1/s9.png">
 
 ---
 <br>
@@ -648,7 +648,7 @@ You can set the name for VM Template or Image as desired or leave as is.
 
 Select the **default** datastore from the list and press **Finish**.
 
-<img src="./resources/module5_lab1/s10.png" class="img_80_percent">
+<img src="resources/module5_lab1/s10.png">
 
 ---
 <br>
@@ -657,7 +657,7 @@ Select the **default** datastore from the list and press **Finish**.
 
 Navigate to **Storage -> Images**. 
 
-<img src="./resources/module5_lab1/s11.png" class="img_80_percent">
+<img src="resources/module5_lab1/s11.png">
 
 ---
 <br>
@@ -666,7 +666,7 @@ Navigate to **Storage -> Images**.
 
 Wait until the status light of newly important image turns **Green**.
 
-<img src="./resources/module5_lab1/s12.png" class="img_80_percent">
+<img src="resources/module5_lab1/s12.png">
 
 ---
 <br>
@@ -700,7 +700,7 @@ Wait until the status light of newly important image turns **Green**.
 
 Make sure you're signed in as **oneadmin**.
 
-<img src="./resources/module6_lab1/s1.png" class="img_50_percent">
+<img src="resources/module6_lab1/s1.png">
 
 ---
 <br>
@@ -709,7 +709,7 @@ Make sure you're signed in as **oneadmin**.
 
 Navigate to **Networks -> Virtual Networks**. 
 
-<img src="./resources/module6_lab1/s2.png" class="img_80_percent">
+<img src="resources/module6_lab1/s2.png">
 
 ---
 <br>
@@ -718,7 +718,7 @@ Navigate to **Networks -> Virtual Networks**.
 
 Press **Create** to start the Network wizard.
 
-<img src="./resources/module6_lab1/s3.png" class="img_80_percent">
+<img src="resources/module6_lab1/s3.png">
 
 ---
 <br>
@@ -727,7 +727,7 @@ Press **Create** to start the Network wizard.
 
 Name the way you want and make sure the **default** cluster is selected. 
 
-<img src="./resources/module6_lab1/s4.png" class="img_80_percent">
+<img src="resources/module6_lab1/s4.png">
 
 ---
 <br>
@@ -738,7 +738,7 @@ On the **Configuration** tab set the type to **Bridged**.
 
 Toggle the **Use only private host networking**.
 
-<img src="./resources/module6_lab1/s5.png" class="img_80_percent">
+<img src="resources/module6_lab1/s5.png">
 
 ---
 <br>
@@ -749,7 +749,7 @@ Switch to **Addresses** tab.
 
 And press **+ Address Range**.
 
-<img src="./resources/module6_lab1/s6.png" class="img_80_percent">
+<img src="resources/module6_lab1/s6.png">
 
 ---
 <br>
@@ -760,7 +760,7 @@ Set the **First IPv4 address** field to **192.168.0.20**.
 
 Set **Size** to **20** and press **Accept**.
 
-<img src="./resources/module6_lab1/s7.png" class="img_80_percent">
+<img src="resources/module6_lab1/s7.png">
 
 ---
 <br>
@@ -769,7 +769,7 @@ Set **Size** to **20** and press **Accept**.
 
 Press **Finish** to add the network and close the wizard.
 
-<img src="./resources/module6_lab1/s8.png" class="img_80_percent">
+<img src="resources/module6_lab1/s8.png">
 
 ---
 <br>
@@ -778,7 +778,7 @@ Press **Finish** to add the network and close the wizard.
 
 After closing the wizrd you must have two networks. 
 
-<img src="./resources/module6_lab1/s9.png" class="img_80_percent">
+<img src="resources/module6_lab1/s9.png">
     
 ---
 <br>
@@ -813,7 +813,7 @@ After closing the wizrd you must have two networks.
 
 Login as **cloud-user**.
 
-<img src="./resources/module7_lab1/s1.png" class="img_50_percent">
+<img src="resources/module7_lab1/s1.png">
 
 ---
 <br>
@@ -822,7 +822,7 @@ Login as **cloud-user**.
 
 Navigate to **Templates -> VM Templates**.
 
-<img src="./resources/module7_lab1/s2.png" class="img_80_percent">
+<img src="resources/module7_lab1/s2.png">
 
 ---
 <br>
@@ -831,7 +831,7 @@ Navigate to **Templates -> VM Templates**.
 
 Select **Alpine Linux 3.XX** and press **Clone**.
 
-<img src="./resources/module7_lab1/s3.png" class="img_80_percent">
+<img src="resources/module7_lab1/s3.png">
 
 ---
 <br>
@@ -840,7 +840,7 @@ Select **Alpine Linux 3.XX** and press **Clone**.
 
 Make sure that **image cloning** checkbox isn't active and name the VM Template as **App Server**.
 
-<img src="./resources/module7_lab1/s4.png" class="img_80_percent">
+<img src="resources/module7_lab1/s4.png">
 
 ---
 <br>
@@ -854,7 +854,7 @@ Make sure that **image cloning** checkbox isn't active and name the VM Template 
 
 Now you must have two new VM Templates.
 
-<img src="./resources/module7_lab1/s5.png" class="img_80_percent">
+<img src="resources/module7_lab1/s5.png">
 
 
 ---
@@ -869,7 +869,7 @@ Now you must have two new VM Templates.
 
 Select the App Server VM Template and press **Update**. 
 
-<img src="./resources/module7_lab1/s6.png" class="img_80_percent">
+<img src="resources/module7_lab1/s6.png">
 
 ---
 <br>
@@ -878,7 +878,7 @@ Select the App Server VM Template and press **Update**.
 
 Change the **Memory** value from **256** to **1024** and proceed ot the **Next** step of the wizard.
 
-<img src="./resources/module7_lab1/s7.png" class="img_80_percent">
+<img src="resources/module7_lab1/s7.png">
 
 ---
 <br>
@@ -887,7 +887,7 @@ Change the **Memory** value from **256** to **1024** and proceed ot the **Next**
 
 Under the **Storage** tab locate the currently attached disk and press the **edit** button.
 
-<img src="./resources/module7_lab1/s8.png" class="img_80_percent">
+<img src="resources/module7_lab1/s8.png">
 
 ---
 <br>
@@ -896,7 +896,7 @@ Under the **Storage** tab locate the currently attached disk and press the **edi
 
 Make sure that **Alpine Linux 3.XX** is selected.
 
-<img src="./resources/module7_lab1/s9.png" class="img_80_percent">
+<img src="resources/module7_lab1/s9.png">
 
 ---
 <br>
@@ -905,7 +905,7 @@ Make sure that **Alpine Linux 3.XX** is selected.
 
 Change the **Size on instantiate** parameter from **512** to **5120** and press **Finish**.
 
-<img src="./resources/module7_lab1/s10.png" class="img_80_percent">
+<img src="resources/module7_lab1/s10.png">
 
 ---
 <br>
@@ -914,7 +914,7 @@ Change the **Size on instantiate** parameter from **512** to **5120** and press 
 
 You should see that the size has been changed to 5 GB.
 
-<img src="./resources/module7_lab1/s11.png" class="img_80_percent">
+<img src="resources/module7_lab1/s11.png">
 
 ---
 <br>
@@ -923,7 +923,7 @@ You should see that the size has been changed to 5 GB.
 
 Switch to the **Context** tab.
 
-<img src="./resources/module7_lab1/s12.png" class="img_80_percent">
+<img src="resources/module7_lab1/s12.png">
 
 ---
 <br>
@@ -944,7 +944,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./resources/module7_lab1/s13.png" class="img_60_percent">
+<img src="resources/module7_lab1/s13.png">
 
 ---
 <br>
@@ -965,7 +965,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./resources/module7_lab1/s14.png" class="img_60_percent">
+<img src="resources/module7_lab1/s14.png">
 
 ---
 <br>
@@ -986,7 +986,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./resources/module7_lab1/s15.png" class="img_60_percent">
+<img src="resources/module7_lab1/s15.png">
 
 ---
 <br>
@@ -1007,7 +1007,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./resources/module7_lab1/s16.png" class="img_60_percent">
+<img src="resources/module7_lab1/s16.png">
 
 ---
 <br>
@@ -1028,7 +1028,7 @@ Keep  **Mandatory** switch un-toggled.
 
 Press **+ Add**
 
-<img src="./resources/module7_lab1/s17.png" class="img_60_percent">
+<img src="resources/module7_lab1/s17.png">
 
 ---
 <br>
@@ -1037,7 +1037,7 @@ Press **+ Add**
 
 You should have 5 variables in the list. Proceed to the **Next** script of the wizard.
 
-<img src="./resources/module7_lab1/s18.png" class="img_80_percent">
+<img src="resources/module7_lab1/s18.png">
 
 ---
 <br>
@@ -1046,7 +1046,7 @@ You should have 5 variables in the list. Proceed to the **Next** script of the w
 
 Leave the **Custom Variables** screen as is and press **Finish**.
 
-<img src="./resources/module7_lab1/s19.png" class="img_80_percent">
+<img src="resources/module7_lab1/s19.png">
 
 ---
 <br>
@@ -1089,7 +1089,7 @@ Leave the **Custom Variables** screen as is and press **Finish**.
 
 Naviagte to **Instances -> VMs**.
 
-<img src="./resources/module7_lab2/s1.png" class="img_80_percent">
+<img src="resources/module7_lab2/s1.png">
 
 ---
 <br>
@@ -1098,7 +1098,7 @@ Naviagte to **Instances -> VMs**.
 
 Press **+ Create** to start the VM Instantiation wizard.
 
-<img src="./resources/module7_lab2/s2.png" class="img_80_percent">
+<img src="resources/module7_lab2/s2.png">
 
 ---
 <br>
@@ -1107,7 +1107,7 @@ Press **+ Create** to start the VM Instantiation wizard.
 
 Select the **DB Server** VM Template.
 
-<img src="./resources/module7_lab2/s3.png" class="img_80_percent">
+<img src="resources/module7_lab2/s3.png">
 
 ---
 <br>
@@ -1116,11 +1116,11 @@ Select the **DB Server** VM Template.
 
 Keep the **Configuration** tab as is and move on to the **Next** tab.
 
-<img src="./resources/module7_lab2/s4_1.png" class="img_80_percent">
+<img src="resources/module7_lab2/s4_1.png">
 
 Same with **Advanced options**. Press **Finish**.
 
-<img src="./resources/module7_lab2/s4_2.png" class="img_80_percent">
+<img src="resources/module7_lab2/s4_2.png">
 
 ---
 <br>
@@ -1129,7 +1129,7 @@ Same with **Advanced options**. Press **Finish**.
 
 Press **+ Create** once again, but this time select the **App Server** VM Template.
 
-<img src="./resources/module7_lab2/s5.png" class="img_80_percent">
+<img src="resources/module7_lab2/s5.png">
 
 ---
 <br>
@@ -1138,7 +1138,7 @@ Press **+ Create** once again, but this time select the **App Server** VM Templa
 
 Keep the **Configuration** tab as is and move on to the **Next** tab.
 
-<img src="./resources/module7_lab2/s6.png" class="img_80_percent">
+<img src="resources/module7_lab2/s6.png">
 
 ---
 <br>
@@ -1147,7 +1147,7 @@ Keep the **Configuration** tab as is and move on to the **Next** tab.
 
 Under the **User inputs** tab set the **DB_HOST** to something like **127.0.0.1**. At this point it doesn't matter. Since the value is **Mandatory**, we can't leave it empty.
 
-<img src="./resources/module7_lab2/s7.png" class="img_80_percent">
+<img src="resources/module7_lab2/s7.png">
 
 ---
 <br>
@@ -1156,7 +1156,7 @@ Under the **User inputs** tab set the **DB_HOST** to something like **127.0.0.1*
 
 Keep the **Advanced options** as is and press **Finish**.
 
-<img src="./resources/module7_lab2/s8.png" class="img_80_percent">
+<img src="resources/module7_lab2/s8.png">
 
 ---
 <br>
@@ -1165,7 +1165,7 @@ Keep the **Advanced options** as is and press **Finish**.
 
 Make sure that VM's status lights are **Green** and write down the IP address of each. 
 
-<img src="./resources/module7_lab2/s9.png" class="img_80_percent">
+<img src="resources/module7_lab2/s9.png">
 
 ---
 <br>
@@ -1327,7 +1327,7 @@ Exit from the App Server's console.
 
 Navigate to **Instances -> VMs**.
 
-<img src="./resources/module7_lab2/s15.png" class="img_80_percent">
+<img src="resources/module7_lab2/s15.png">
 
 ---
 <br>
@@ -1336,7 +1336,7 @@ Navigate to **Instances -> VMs**.
 
 Select all your Virtual Machines, from the **VM state** drop-down menu select **Poweroff**.
 
-<img src="./resources/module7_lab2/s16.png" class="img_80_percent">
+<img src="resources/module7_lab2/s16.png">
 
 ---
 <br>
@@ -1345,7 +1345,7 @@ Select all your Virtual Machines, from the **VM state** drop-down menu select **
 
 Wait until both VMs are powered down.
 
-<img src="./resources/module7_lab2/s17.png" class="img_80_percent">
+<img src="resources/module7_lab2/s17.png">
 
 ---
 <br>
@@ -1354,7 +1354,7 @@ Wait until both VMs are powered down.
 
 Open the info card of the App Server VM and navigate to **Storage** and press the **Save as** icon near the disk.
 
-<img src="./resources/module7_lab2/s18.png" class="img_80_percent">
+<img src="resources/module7_lab2/s18.png">
 
 ---
 <br>
@@ -1363,7 +1363,7 @@ Open the info card of the App Server VM and navigate to **Storage** and press th
 
 Name the new Image as **App Server** and press **Accept**.
 
-<img src="./resources/module7_lab2/s19.png" class="img_80_percent">
+<img src="resources/module7_lab2/s19.png">
 
 ---
 <br>
@@ -1379,7 +1379,7 @@ Name the new Image as **App Server** and press **Accept**.
 
 Navigate to **Storage -> Images**.
 
-<img src="./resources/module7_lab2/s20.png" class="img_80_percent">
+<img src="resources/module7_lab2/s20.png">
 
 ---
 <br>
@@ -1388,7 +1388,7 @@ Navigate to **Storage -> Images**.
 
 Make sure that both newly created Images having the **Green** status light.
 
-<img src="./resources/module7_lab2/s21.png" class="img_80_percent">
+<img src="resources/module7_lab2/s21.png">
 
 
 
@@ -1427,7 +1427,7 @@ Make sure that both newly created Images having the **Green** status light.
 
 Navigate to **Templates -> VM Templates**
 
-<img src="./resources/module7_lab3/s1.png" class="img_80_percent">
+<img src="resources/module7_lab3/s1.png">
 
 ---
 <br>
@@ -1436,7 +1436,7 @@ Navigate to **Templates -> VM Templates**
 
 Select **App Server** and press **Update**.
 
-<img src="./resources/module7_lab3/s2.png" class="img_80_percent">
+<img src="resources/module7_lab3/s2.png">
 
 ---
 <br>
@@ -1445,7 +1445,7 @@ Select **App Server** and press **Update**.
 
 Keep the **General** settings as is and press **Next**.
 
-<img src="./resources/module7_lab3/s3.png" class="img_80_percent">
+<img src="resources/module7_lab3/s3.png">
 
 ---
 <br>
@@ -1454,7 +1454,7 @@ Keep the **General** settings as is and press **Next**.
 
 Under the **Storage** tab locate the **Alpine Linux 3.XX** disk and press **Edit**.
 
-<img src="./resources/module7_lab3/s4.png" class="img_80_percent">
+<img src="resources/module7_lab3/s4.png">
 
 ---
 <br>
@@ -1463,7 +1463,7 @@ Under the **Storage** tab locate the **Alpine Linux 3.XX** disk and press **Edit
 
 Select the **App Server** Image from the list.
 
-<img src="./resources/module7_lab3/s5.png" class="img_80_percent">
+<img src="resources/module7_lab3/s5.png">
 
 ---
 <br>
@@ -1472,7 +1472,7 @@ Select the **App Server** Image from the list.
 
 Leave **Advanced options** as is.
 
-<img src="./resources/module7_lab3/s6.png" class="img_80_percent">
+<img src="resources/module7_lab3/s6.png">
 
 ---
 <br>
@@ -1481,7 +1481,7 @@ Leave **Advanced options** as is.
 
 Continue only if you have **App Server** set as the only disk!
 
-<img src="./resources/module7_lab3/s7.png" class="img_80_percent">
+<img src="resources/module7_lab3/s7.png">
 
 ---
 <br>
@@ -1490,7 +1490,7 @@ Continue only if you have **App Server** set as the only disk!
 
 Swich to **Network** tab and press the **Attach NIC** button. 
 
-<img src="./resources/module7_lab3/s8.png" class="img_80_percent">
+<img src="resources/module7_lab3/s8.png">
 
 ---
 <br>
@@ -1499,7 +1499,7 @@ Swich to **Network** tab and press the **Attach NIC** button.
 
 Keep **Advanced options** as is.
 
-<img src="./resources/module7_lab3/s9.png" class="img_80_percent">
+<img src="resources/module7_lab3/s9.png">
 
 ---
 <br>
@@ -1508,7 +1508,7 @@ Keep **Advanced options** as is.
 
 Select the **host-only** network from the list.
 
-<img src="./resources/module7_lab3/s10.png" class="img_80_percent">
+<img src="resources/module7_lab3/s10.png">
 
 ---
 <br>
@@ -1517,7 +1517,7 @@ Select the **host-only** network from the list.
 
 Keep **Network values** as is.
 
-<img src="./resources/module7_lab3/s11.png" class="img_80_percent">
+<img src="resources/module7_lab3/s11.png">
 
 ---
 <br>
@@ -1526,7 +1526,7 @@ Keep **Network values** as is.
 
 Keep **QoS** settings as is and press **Finish**.
 
-<img src="./resources/module7_lab3/s12.png" class="img_80_percent">
+<img src="resources/module7_lab3/s12.png">
 
 ---
 <br>
@@ -1535,7 +1535,7 @@ Keep **QoS** settings as is and press **Finish**.
 
 Make sure that this template now has **two networks**!
 
-<img src="./resources/module7_lab3/s13.png" class="img_80_percent">
+<img src="resources/module7_lab3/s13.png">
 
 ---
 <br>
@@ -1550,7 +1550,7 @@ cd /root/app
 python3 -u app.py &
 ```
 
-<img src="./resources/module7_lab3/s14.png" class="img_80_percent">
+<img src="resources/module7_lab3/s14.png">
 
 ---
 <br>
@@ -1559,7 +1559,7 @@ python3 -u app.py &
 
 Leave **Custom Variables** as is and press **Finish**.
 
-<img src="./resources/module7_lab3/s15.png" class="img_80_percent">
+<img src="resources/module7_lab3/s15.png">
 
 ---
 <br>
@@ -1573,7 +1573,7 @@ Leave **Custom Variables** as is and press **Finish**.
 
 Select the **DB Server** VM Template and press **Update**.
 
-<img src="./resources/module7_lab3/s16.png" class="img_80_percent">
+<img src="resources/module7_lab3/s16.png">
 
 ---
 <br>
@@ -1582,7 +1582,7 @@ Select the **DB Server** VM Template and press **Update**.
 
 Under the **Storage** tab locate the **Alpine Linux 3.XX** disk and press **Edit**.
 
-<img src="./resources/module7_lab3/s17.png" class="img_80_percent">
+<img src="resources/module7_lab3/s17.png">
 
 ---
 <br>
@@ -1591,7 +1591,7 @@ Under the **Storage** tab locate the **Alpine Linux 3.XX** disk and press **Edit
 
 Select the **DB Server** Image from the list.
 
-<img src="./resources/module7_lab3/s18.png" class="img_80_percent">
+<img src="resources/module7_lab3/s18.png">
 
 ---
 <br>
@@ -1600,7 +1600,7 @@ Select the **DB Server** Image from the list.
 
 Leave **Advanced options** as is.
 
-<img src="./resources/module7_lab3/s19.png" class="img_80_percent">
+<img src="resources/module7_lab3/s19.png">
 
 ---
 <br>
@@ -1609,7 +1609,7 @@ Leave **Advanced options** as is.
 
 Continue only if you have **DB Server** set as the only disk!
 
-<img src="./resources/module7_lab3/s20.png" class="img_80_percent">
+<img src="resources/module7_lab3/s20.png">
 
 ---
 <br>
@@ -1618,7 +1618,7 @@ Continue only if you have **DB Server** set as the only disk!
 
 Under the **Network** tab locate the **NIC0: vnet** and press the **Edit** button.
 
-<img src="./resources/module7_lab3/s21.png" class="img_80_percent">
+<img src="resources/module7_lab3/s21.png">
 
 ---
 <br>
@@ -1627,7 +1627,7 @@ Under the **Network** tab locate the **NIC0: vnet** and press the **Edit** butto
 
 Keep **Advanced options** as is.
 
-<img src="./resources/module7_lab3/s22.png" class="img_80_percent">
+<img src="resources/module7_lab3/s22.png">
 
 ---
 <br>
@@ -1636,7 +1636,7 @@ Keep **Advanced options** as is.
 
 Select the **host-only** network from the list.
 
-<img src="./resources/module7_lab3/s23.png" class="img_80_percent">
+<img src="resources/module7_lab3/s23.png">
 
 ---
 <br>
@@ -1645,7 +1645,7 @@ Select the **host-only** network from the list.
 
 Keep **Network & values** as is.
 
-<img src="./resources/module7_lab3/s24.png" class="img_80_percent">
+<img src="resources/module7_lab3/s24.png">
 
 ---
 <br>
@@ -1654,7 +1654,7 @@ Keep **Network & values** as is.
 
 Keep **QoS** as is and press **Finish**.
 
-<img src="./resources/module7_lab3/s25.png" class="img_80_percent">
+<img src="resources/module7_lab3/s25.png">
 
 ---
 <br>
@@ -1667,7 +1667,7 @@ Switch to **Context** tab.
 rc-service mariadb start
 ```
 
-<img src="./resources/module7_lab3/s26.png" class="img_80_percent">
+<img src="resources/module7_lab3/s26.png">
 
 ---
 <br>
@@ -1676,7 +1676,7 @@ rc-service mariadb start
 
 Kepp **Custom Variables** as is.
 
-<img src="./resources/module7_lab3/s27.png" class="img_80_percent">
+<img src="resources/module7_lab3/s27.png">
 
 ---
 <br>
@@ -1690,7 +1690,7 @@ Kepp **Custom Variables** as is.
 
 Navigate **Instances -> VMs**.
 
-<img src="./resources/module7_lab3/s28.png" class="img_80_percent">
+<img src="resources/module7_lab3/s28.png">
 
 ---
 <br>
@@ -1699,7 +1699,7 @@ Navigate **Instances -> VMs**.
 
 Select all VMs and **Terminate hard** from the drop-down menu.
 
-<img src="./resources/module7_lab3/s29.png" class="img_80_percent">
+<img src="resources/module7_lab3/s29.png">
 
 ---
 <br>
@@ -1708,7 +1708,7 @@ Select all VMs and **Terminate hard** from the drop-down menu.
 
 Wait until all VMs are destroyed and then press **+ Create**.
 
-<img src="./resources/module7_lab3/s30.png" class="img_80_percent">
+<img src="resources/module7_lab3/s30.png">
 
 ---
 <br>
@@ -1717,7 +1717,7 @@ Wait until all VMs are destroyed and then press **+ Create**.
 
 Select the **DB Server**.
 
-<img src="./resources/module7_lab3/s31.png" class="img_80_percent">
+<img src="resources/module7_lab3/s31.png">
 
 ---
 <br>
@@ -1726,11 +1726,11 @@ Select the **DB Server**.
 
 Leave **Configuration** as is.
 
-<img src="./resources/module7_lab3/s32_1.png" class="img_80_percent">
+<img src="resources/module7_lab3/s32_1.png">
 
 And the **Advanced options** as is and press **Finish**.
 
-<img src="./resources/module7_lab3/s32_2.png" class="img_80_percent">
+<img src="resources/module7_lab3/s32_2.png">
 
 ---
 <br>
@@ -1739,7 +1739,7 @@ And the **Advanced options** as is and press **Finish**.
 
 Copy the **IP address** of a **DB Server** VM and press **+ Create** once again.
 
-<img src="./resources/module7_lab3/s33.png" class="img_80_percent">
+<img src="resources/module7_lab3/s33.png">
 
 ---
 <br>
@@ -1748,7 +1748,7 @@ Copy the **IP address** of a **DB Server** VM and press **+ Create** once again.
 
 Select **App Server**.
 
-<img src="./resources/module7_lab3/s34.png" class="img_80_percent">
+<img src="resources/module7_lab3/s34.png">
 
 ---
 <br>
@@ -1757,7 +1757,7 @@ Select **App Server**.
 
 Keep **Configuration** as is.
 
-<img src="./resources/module7_lab3/s35.png" class="img_80_percent">
+<img src="resources/module7_lab3/s35.png">
 
 ---
 <br>
@@ -1766,7 +1766,7 @@ Keep **Configuration** as is.
 
 Paste the copied IP Address from the DB Server to the **DB_HOST** field.
 
-<img src="./resources/module7_lab3/s36.png" class="img_80_percent">
+<img src="resources/module7_lab3/s36.png">
 
 ---
 <br>
@@ -1775,7 +1775,7 @@ Paste the copied IP Address from the DB Server to the **DB_HOST** field.
 
 Leave **Advanced options** as is and press **Finish**.
 
-<img src="./resources/module7_lab3/s37.png" class="img_80_percent">
+<img src="resources/module7_lab3/s37.png">
 
 ---
 <br>
@@ -1784,7 +1784,7 @@ Leave **Advanced options** as is and press **Finish**.
 
 Wait until the **App Server** is running and copy its IP Address.
 
-<img src="./resources/module7_lab3/s38.png" class="img_80_percent">
+<img src="resources/module7_lab3/s38.png">
 
 ---
 <br>
