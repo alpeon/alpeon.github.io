@@ -1,7 +1,7 @@
 title: Test GitHub Pages
 description: Testing github pages
 markdown: GFM
-remote_theme: just-the-docs/just-the-docs
+remote_theme: mmistakes/minimal-mistakes
 plugins:
 - jekyll-remote-theme
 - jekyll-titles-from-headings

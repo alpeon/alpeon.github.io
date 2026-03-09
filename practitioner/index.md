@@ -72,7 +72,7 @@ You supposed to perform the installation with **root** user privileges!
 
 Set the password for **oneadmin** user to any string, however in this guide we are going to assume that the  password is set to **Pa$$w0rd**.
 
-```console[]
+```
 # cd /deployment
 # bash minione --password 'Pa$$w0rd' --force --yes
 ```
@@ -1176,14 +1176,14 @@ Make sure that VM's status lights are **Green** and write down the IP address of
 
 Connect to DB Server VM using the **onevm** command:
 
-```console[]
+```
 # sudo -i -u oneadmin
 $ ssh root@<DB Server IP>
 ```
 
 Download the DB Prep script.
 
-```console[]
+```
 # script='https://raw.githubusercontent.com/alpeon/training-files/refs/heads/main/VMs/prep_db.sh'
 # curl $script -o prep_db.sh
     % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -1198,7 +1198,7 @@ Download the DB Prep script.
 
 Launch the script and wait until it's going to finish!
 
-```console[]
+```
 # bash prep_db.sh
 ...
 Installing MariaDB/MySQL system tables in '/var/lib/mysql' ...
@@ -1220,7 +1220,7 @@ https://mariadb.org/get-involved/
 
 Execute mysql select statement to verify that the user was added successfully:
 
-```console[1,11]
+```
 # mysql -u root -e 'select Host, User,Password from mysql.user;'
 mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead
 +-----------+-------------+-------------------------------------------+
@@ -1237,7 +1237,7 @@ mysql: Deprecated program name. It will be removed in a future release, use '/us
 
 Exit from the DB Server's console.
 
-```console[]
+```
 # exit
 ```
 
@@ -1248,13 +1248,13 @@ Exit from the DB Server's console.
 
 Connect to App Server using the **onevm** Command Line:
 
-```console[]
+```
 $ ssh root@<App Server's IP>
 ```
 
 Download the App Prep script.
 
-```console[]
+```
 # script='https://raw.githubusercontent.com/alpeon/training-files/refs/heads/main/VMs/prep_app.sh'
 # curl $script -o prep_app.sh
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -1268,7 +1268,7 @@ Download the App Prep script.
 
 Run the App Prep script.
 
-```console[1,4,8,10]
+```
 # bash prep_app.sh
 ...
 Executing busybox-1.37.0-r12.trigger
@@ -1288,7 +1288,7 @@ Successfully installed Flask-3.0.3 Jinja2-3.1.4 MarkupSafe-3.0.2 Werkzeug-3.0.4 
 
 List the **app** directory.
 
-```console[]
+```
 # ls -lah app
 total 15K
 drwxr-xr-x    4 root     root        1.0K Jul 25 00:19 .
@@ -1303,7 +1303,7 @@ drwxr-xr-x    2 root     root        1.0K Jul 25 00:19 templates
 
 Exit from the App Server's console.
 
-```console[]
+```
 # exit
 ```
 
@@ -1541,7 +1541,7 @@ Make sure that this template now has **two networks**!
 
 Navigate to **Context** tab and scroll down to the **Start script** window and add the code below (make sure it looks the same way as on the picture without extra spaces).
 
-```console[]
+```
 source /root/bin/activate
 cd /root/app
 python3 -u app.py &
@@ -1660,7 +1660,7 @@ Keep **QoS** as is and press **Finish**.
 
 Switch to **Context** tab.
 
-```console[]
+```
 rc-service mariadb start
 ```
 
@@ -1798,14 +1798,14 @@ Make sure to use the IP Address that you've copied in the previous step (in this
 
 Create the Database to make sure that the connection between the App Server and DB Server is working. 
 
-```console[]
+```
 $ curl 172.16.100.2:5000/create-db
 {"message":"Table 'data' created successfully"}
 ```
 
 Insert the dummy data. Execute this command a few times.
 
-```console[]
+```
 $ curl 172.16.100.2:5000/insert-dummy
 {"message":"Dummy data inserted successfully"}
 $ curl 172.16.100.2:5000/insert-dummy
@@ -1814,7 +1814,7 @@ $ curl 172.16.100.2:5000/insert-dummy
 
 Now query for the data to finalize the test. 
 
-```console[]
+```
 $ curl 172.16.100.2:5000/get-data
 [{"data1":"2025-08-25 13:21:25","data2":"31","id":1},{"data1":"2025-08-25 13:21:26","data2":"64","id":2}]
 ```
