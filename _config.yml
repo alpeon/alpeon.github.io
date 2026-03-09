@@ -1,6 +1,0 @@
-title: Test GitHub Pages
-description: Testing github pages
-markdown: GFM
-remote_theme: just-the-docs/just-the-docs
-plugins:
-- jekyll-remote-theme 

@@ -2,7 +2,7 @@
 
 
 # OpenNebula 7.0
-### Practitioner - Self-Paced Lab Guide
+## Practitioner - Self-Paced Lab Guide
 
 All of the material in this training is copyright-protected and may not be published in other works without express written permission from OpenNebula Systems. 
 All trademarks are property of their respective owners.
@@ -14,13 +14,13 @@ All trademarks are property of their respective owners.
 
 
 
-## Attention!
-#### This guide assumes that you have a spare hardware to execute all of the tasks in the self-paced manner. If you don't have any hardware to run - you may leverage any cloud provider. This guide can be completed with software virtualization only (QEMU), however we would highly recommend KVM-supported hardware. 
+# Attention!
+# This guide assumes that you have a spare hardware to execute all of the tasks in the self-paced manner. If you don't have any hardware to run - you may leverage any cloud provider. This guide can be completed with software virtualization only (QEMU), however we would highly recommend KVM-supported hardware. 
 
 ---
 <br>
 
-## Requirements
+# Requirements
 
 | Requirement     | Minimum Value | Recommended |
 |----------------- | -------- | -------- | 
@@ -38,7 +38,7 @@ All trademarks are property of their respective owners.
 
 
 
-## Module 1 - Lab 1 : Prepare your Lab Environment using miniONE 
+# Module 1 - Lab 1 : Prepare your Lab Environment using miniONE 
     
 ---
 <br>
@@ -91,13 +91,10 @@ Access the Sunstone interface on port 80/tcp and login as **oneadmin**.
 ---
 <br>
     
-### Congratulations, you've completed the assignment!
-
-
+## Congratulations, you've completed the assignment!
 
 
 <!-- Module 2 - Lab 1 -->
-
 
 
 ## Module 2 - Lab 1 : Users, Groups & Permissions
@@ -192,7 +189,7 @@ Note the **Group ID (#100)**, this may be a different ID in your environment!
 ---
 <br>
 
-### Create a User.
+## Create a User.
 
 ---
 <br>
