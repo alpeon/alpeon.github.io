@@ -21,7 +21,7 @@ Connect to Node 1's using your Frontend FQDN (lab-X.opennebula.academy) with use
 
 Install the package and start it:
 
-```console []
+```console[]
 sudo apt install opennebula-form -y
 sudo systemctl enable --now opennebula-form
 ```
@@ -49,13 +49,13 @@ systemctl | grep opennebula
 
 Print the contents of the one_auth file:
 
-```console []
+```console[]
 cat ~/.one/one_auth
 ```
 
 The ":" acts as a separator. Note the string on the right of the separator. Note that your value is going to be different:
 
-```console []
+```console[]
 oneadmin:Pa$$w0rd
 ```
 
@@ -96,13 +96,13 @@ ii  opennebula-rubygems       7.2.0-1    amd64        Ruby dependencies for Open
 
 Let's look at running services on the Node 2.
 
-```console []
+```console[]
 systemctl | grep opennebula
 ```
 
 You shouldn't have any opennebula services on Nodes 2 & 3, however you must have **libvirt** running on both nodes.
 
-```console []
+```console[]
 systemctl | grep libvirt
 libvirt-guests.service    		loaded    active     exited    libvirt guests suspend/resume service
 libvirtd.service          		loaded    active     running   libvirt legacy monolithic daemon
@@ -120,7 +120,7 @@ virt-guest-shutdown.target		loaded    active     active    libvirt guests shutdo
 
 exit to the Node 1 once done.
 
-```console []
+```console[]
 exit
 ```
 
