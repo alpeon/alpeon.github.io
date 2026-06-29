@@ -1,5 +1,5 @@
 title: OpenNebula Training Lab Guides
 description: Step-by-step OpenNebula Lab instructions
-theme: just-the-docs
+theme: just-the-docs/just-the-docs
 baseurl: ""
 url: "https://alpeon.github.io"
