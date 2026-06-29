@@ -1,4 +1,5 @@
 title: OpenNebula Training Lab Guides
+logo: "assets/common/logo.png"
 description: Step-by-step OpenNebula Lab instructions
 remote_theme: just-the-docs/just-the-docs
 baseurl: ""

@@ -75,7 +75,7 @@ Return to Node 1's console.
 
 From the Node 1 (Frontend) server establish the ssh connection to the Node 2 (as oneadmin user).
 
-```console [1]
+```console[1]
 oneadmin@lab-X-node1:~ssh lab-X-node2
 Warning: Permanently added 'lab-2022-node2' (ED25519) to the list of known hosts.
 Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-1030-aws x86_64)
