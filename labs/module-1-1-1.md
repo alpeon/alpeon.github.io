@@ -62,7 +62,7 @@ oneadmin:Pa$$w0rd
 
 Open the <a href="https://lab-X.opennebula.academy/fireedge/sunstone/" target="_blank">Sunstone UI</a> and login using the credentials (substitute X with your Lab ID and hit enter).
 
-<img src="./resources/module1_lab1/s3.png" class="img_70_percent">
+<img src="./assets/ca-images/module1_lab1/s3.png" class="img_70_percent">
 
 
 
