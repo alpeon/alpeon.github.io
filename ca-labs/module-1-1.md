@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Module 1 - Lab 1
-nav_order: 4
+parent: Certified Administrator
+# nav_order: 4
 has_children: true
 ---
 

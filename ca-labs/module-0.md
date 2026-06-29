@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Module 0 - Lab 0
-nav_order: 2
+parent: Certified Administrator
+# nav_order: 2
 ---
 
 ## Module 0 - Lab 0: Getting familiar with the Lab Environment
