@@ -1,7 +1,5 @@
-title: Test GitHub Pages
-description: Testing github pages
-markdown: GFM
-remote_theme: just-the-docs/just-the-docs
-plugins:
-- jekyll-remote-theme
-- jekyll-titles-from-headings
+title: OpenNebula Training Lab Guides
+description: Step-by-step OpenNebula Lab instructions
+theme: just-the-docs
+
+url: "https://alpeon.github.io"
