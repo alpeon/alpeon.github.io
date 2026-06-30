@@ -21,14 +21,14 @@ Connect to Node 1's using your Frontend FQDN (lab-X.opennebula.academy) with use
 
 Install the package and start it:
 
-```console[]
+```console
 sudo apt install opennebula-form -y
 sudo systemctl enable --now opennebula-form
 ```
 
 Look at the OpenNebula services:
 
-```console[]
+```console
 systemctl | grep opennebula
     opennebula-fireedge.service            loaded    active running   OpenNebula FireEdge Server
     opennebula-flow.service                loaded    active running   OpenNebula Flow Service
@@ -49,13 +49,13 @@ systemctl | grep opennebula
 
 Print the contents of the one_auth file:
 
-```console[]
+```console
 cat ~/.one/one_auth
 ```
 
 The ":" acts as a separator. Note the string on the right of the separator. Note that your value is going to be different:
 
-```console[]
+```console
 oneadmin:Pa$$w0rd
 ```
 
@@ -75,14 +75,14 @@ Return to Node 1's console.
 
 From the Node 1 (Frontend) server establish the ssh connection to the Node 2 (as oneadmin user).
 
-```console[1]
+```console
 oneadmin@lab-X-node1:~ssh lab-X-node2
 Warning: Permanently added 'lab-2022-node2' (ED25519) to the list of known hosts.
 Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-1030-aws x86_64)
 ....
 ```
 
-```console[]
+```console
 oneadmin@lab-X-node2:~dpkg -l | grep opennebula
 ii  opennebula-common         7.2.0-1    all          Common OpenNebula package shared by various components (Community Edition)
 ii  opennebula-common-onecfg  7.2.0-1    all          Helpers for OpenNebula onecfg (Community Edition)
@@ -96,13 +96,13 @@ ii  opennebula-rubygems       7.2.0-1    amd64        Ruby dependencies for Open
 
 Let's look at running services on the Node 2.
 
-```console[]
+```console
 systemctl | grep opennebula
 ```
 
 You shouldn't have any opennebula services on Nodes 2 & 3, however you must have **libvirt** running on both nodes.
 
-```console[]
+```console
 systemctl | grep libvirt
 libvirt-guests.service    		loaded    active     exited    libvirt guests suspend/resume service
 libvirtd.service          		loaded    active     running   libvirt legacy monolithic daemon
@@ -120,7 +120,7 @@ virt-guest-shutdown.target		loaded    active     active    libvirt guests shutdo
 
 exit to the Node 1 once done.
 
-```console[]
+```console
 exit
 ```
 

@@ -86,7 +86,7 @@ Switch to the Node 1's Command Line.
 Use **oneuser** to list current users and make sure **attendees-admin** is listed.
 
 
-```console[1,4]
+```console
 oneuser list
 
 ID NAME               ENAB GROUP    AUTH            VMS            MEMORY        CPU
@@ -101,14 +101,14 @@ ID NAME               ENAB GROUP    AUTH            VMS            MEMORY       
 
 Create a new user with the name **attendee-user** adn add to the newly created group. Note that your Group's ID might be different!
 
-```console[]
+```console
 oneuser create 'attendee-user' 'Pa$$w0rd' --group 100
 ID: 4
 ```
 
 List users and verify that the new user has been created.
 
-```console[1,4]
+```console
 oneuser list
 
 ID NAME                 ENAB GROUP    AUTH            VMS            MEMORY        CPU
@@ -126,13 +126,13 @@ ID NAME                 ENAB GROUP    AUTH            VMS            MEMORY     
 
 Still in the Command Line of the Node 1 - change the umask for the **attendee-user**.
 
-```console[]
+```console
 oneuser umask 4 137
 ```
 
 Verify that the umask was set to the correct one.
 
-```console[1,11]
+```console
 oneuser show 4
 
 USER 4 INFORMATION

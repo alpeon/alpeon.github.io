@@ -17,13 +17,13 @@ parent: Module 4
 
 From Node 1's Command Line connect to the Node 2
 
-```console[]
+```console
 ssh lab-X-node2
 ```
 
 Inspect the probes directory.
 
-```console[]
+```console
 ls -lh /var/tmp/one/im/qemu-probes.d/
 total 8.0K
 drwxr-x--- 5 oneadmin oneadmin 4.0K Aug 16 08:32 host
@@ -34,13 +34,13 @@ drwxr-x--- 5 oneadmin oneadmin 4.0K Aug 16 08:32 vm
 
 Using your preferred text viewer - inspect one of the probes under **host** directory:
 
-```console[]
+```console
 cat /var/tmp/one/im/qemu-probes.d/host/system/cpu.sh
 ```
 
 Now try to run this probe manually
 
-```console[]
+```console
 /var/tmp/one/im/qemu-probes.d/host/system/cpu.sh
 MODELNAME="Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
 ```
@@ -51,7 +51,7 @@ MODELNAME="Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz"
 
 Go back to Node 1's Command Line and clone the repository and copy the file.
 
-```console[]
+```console
 export REPO='https://github.com/OpenNebula/one-training-files.git'
 rm -rf ~/Files
 git clone --no-checkout $REPO  ~/Files
@@ -68,7 +68,7 @@ total 4.0K
 
 Copy the **host_mode.py** script to the Probes directory and make it executable!
 
-```console[]
+```console
 cp host_mode.py ~/remotes/im/qemu-probes.d/host/system/host_mode.py
 chmod +x ~/remotes/im/qemu-probes.d/host/system/host_mode.py
 ```
@@ -76,7 +76,7 @@ chmod +x ~/remotes/im/qemu-probes.d/host/system/host_mode.py
 
 Sync all the hosts.
 
-```console[]
+```console
 onehost sync --force
 * Adding lab-2022-node3 to upgrade
 * Adding lab-2022-node2 to upgrade
@@ -90,7 +90,7 @@ All hosts updated successfully.
 
 Run onehost show command on one of the hosts and check the **Monitoring** section and look for **MODE** parameter. It should show either PROD,TEST or DEV.
 
-```console[1,13]
+```console
 onehost show 2
 Node 2 INFORMATION                                                              
 ID                    : 2                   

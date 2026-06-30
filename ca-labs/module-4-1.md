@@ -22,7 +22,7 @@ parent: Module 4
 
 Using your preferred text editor, as root, edit the **/etc/one/monitord.conf** file.
 
-```console[]
+```console
 vi /etc/one/monitord.conf
 ```
 
@@ -31,7 +31,7 @@ vi /etc/one/monitord.conf
 
 Locate the **PROBES_PERIOD** section and set the **SYSTEM_HOST** value from **600** to *180**.
 
-```console[1,3]
+```console
 PROBES_PERIOD = [
     BEACON_HOST    = 30,
     SYSTEM_HOST    = 180,
@@ -53,7 +53,7 @@ Then save the file.
 
 Restart the opennebula daemon.
 
-```console[]
+```console
 systemctl restart opennebula
 ```
     

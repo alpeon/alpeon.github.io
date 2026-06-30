@@ -19,14 +19,14 @@ parent: Module 3
 
 From the Node 1's Command Line login as root and go to the views directory.
 
-```console[]
+```console
 sudo su
 cd /etc/one/fireedge/sunstone/views/
 ```
 
 Copy the "user" view.
 
-```console[]
+```console
 cp -R user/ limited_user
 ```
     
@@ -34,7 +34,7 @@ cp -R user/ limited_user
 
 Enter the newly created view directory and remove views.
 
-```console[]
+```console
 cd limited_user/
 rm -f sec-group-tab.yaml vnet-tab.yaml
 ls -lh
@@ -53,14 +53,14 @@ total 28K
 
 Go one level up and edit the **sunstone-views.conf** file.
 
-```console[]
+```console
 cd ../
 vi sunstone-views.yaml
 ```
 
 Under the **views** add the following code.
 
-```console[]
+```console
 views:
     ...
     limited_user:

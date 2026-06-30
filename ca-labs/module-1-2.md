@@ -58,7 +58,7 @@ Add a host using the **onehost** command.
 
 Make sure to use your Lab ID!
 
-```console[]
+```console
 onehost create -i qemu -v qemu lab-2022-node3
 ID: 3
 ```
@@ -66,7 +66,7 @@ ID: 3
 
 List all your hosts using the **onehost** command.
 
-```console[]
+```console
 onehost list
 
 ID NAME            CLUSTER    TVM      ALLOCATED_CPU      ALLOCATED_MEM STAT
@@ -78,7 +78,7 @@ ID NAME            CLUSTER    TVM      ALLOCATED_CPU      ALLOCATED_MEM STAT
 
 If your host is in the **int** state - run **top** subcommand to observe the transition from int ot on. 
 
-```console[]
+```console
 onehost top
 ```
 
@@ -88,7 +88,7 @@ Press CTRL + C to exit
 
 Use **onehost show** command to print the information about the host
 
-```console[]
+```console
 onehost show lab-X-node3
 HOST 7 INFORMATION                                                              
 ID                    : 3                   
@@ -102,7 +102,7 @@ VM_MAD                : qemu
 
 Now try the same command but with **-x** flag. 
 
-```console[]
+```console
 onehost show -x lab-X-node3
 ```
 

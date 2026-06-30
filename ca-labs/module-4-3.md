@@ -22,13 +22,13 @@ parent: Module 4
 
 From the Node 1's Command Line execute the **disable** subcommand to Disable the Host with ID 0.
 
-```console[]
+```console
 onehost disable 0
 ```
 
 List the hosts.
 
-```console[1,6]
+```console
 onehost list
 
 ID NAME             CLUSTER    TVM      ALLOCATED_CPU      ALLOCATED_MEM STAT

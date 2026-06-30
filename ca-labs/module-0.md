@@ -39,7 +39,7 @@ Use SSH from your personal device to the Frontend server. Don't forget to substi
 
 Credentials are available on <a href="#/1/1" target="_blank">FQDNs & Credentials</a> page.
 
-```console[]
+```console
 ssh gateway@lab-X.opennebula.academy
 gateway@lab-X.opennebula.academy's password:
 
@@ -50,7 +50,7 @@ gateway@lab-X-node1:~
 
 /etc/hosts file contains records pointing to other hosts
 
-```console[]
+```console
 cat /etc/hosts
 127.0.0.1 localhost
 
@@ -70,7 +70,7 @@ ff02::3 ip6-allhosts
 
 You are going to use **oneadmin** account to perform all OpenNebula-related activities.
 
-```console[]
+```console
 sudo -i -u oneadmin
 [sudo] password for gateway: 
 oneadmin@lab-X-node1:~$
