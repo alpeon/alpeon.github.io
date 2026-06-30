@@ -3,6 +3,8 @@ layout: default
 title: Lab 3 - Host Management
 parent: Module 4
 ---
+1. Table of Contents
+{:toc}
 
 # Module 4 - Lab 3: Host Management
 
