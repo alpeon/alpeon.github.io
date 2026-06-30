@@ -6,3 +6,10 @@ baseurl: ""
 url: "https://alpeon.github.io"
 back_to_top: true
 back_to_top_text: "Up!"
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+compress_html:
+  ignore:
+    envs: all
