@@ -3,8 +3,14 @@ layout: default
 title: Lab 1 - User Management
 parent: Module 2
 ---
-
 # Module 2 - Lab 1 : User Management
+{: .no_toc}
+
+## Table of Contents
+{: .no_toc}
+
+1. TOC
+{:toc}
 
 ## Objective(-s):
 - Create a new User Group with Administrator.
@@ -16,19 +22,18 @@ parent: Module 2
 
 # Create a new User Group with Administrator.
 
-
 ## 2.1.1
 
 Navigate to **System -> Groups** to access the Groups Management screen.
 
-<img src="./resources/module2_lab1/s1.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s1.png">
 
 
 ## 2.1.2
 
 From the Groups screen press **Create** to start the wizard. 
 
-<img src="./resources/module2_lab1/s2.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s2.png">
 
 
 ## 2.1.3
@@ -41,14 +46,14 @@ Set **Authentication Type** to **core**.
 
 Choose the password you wish and press **Next**.
 
-<img src="./resources/module2_lab1/s3.png">
+<img src="./../assets/ca-images/module2_lab1/s3.png">
 
 
 ## 2.1.4
 
 Leave **Permissions** as is and press **Next**.
 
-<img src="./resources/module2_lab1/s4.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s4.png">
 
 
 ## 2.1.5
@@ -57,14 +62,14 @@ Set the **User view** as a **Default view**.
 
 Also enable the **User view** and press **Next**.
 
-<img src="./resources/module2_lab1/s5.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s5.png">
 
 
 ## 2.1.6
 
 Leave the **System** tab as is and press **Finish**.
 
-<img src="./resources/module2_lab1/s6.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s6.png">
 
 
 ## 2.1.7
@@ -73,7 +78,7 @@ You should see the newly created group added to the list of groups.
 
 Note the **Group ID (#100)**, this may be a different ID in your environment!
 
-<img src="./resources/module2_lab1/s7.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s7.png">
 
 
 # Add a User to the User Group.
@@ -156,7 +161,7 @@ Switch to Sunstone's **Groups** tab.
 
 Select the **attendees** user group and go to the **Quota** tab.
 
-<img src="./resources/module2_lab1/s11.png" class="img_60_percent">
+<img src="./../assets/ca-images/module2_lab1/s11.png">
 
 
 ## 2.1.12
@@ -167,14 +172,14 @@ The **Value** should be set to 6.
 
 Press the **Apply** button to add a Quota.
 
-<img src="./resources/module2_lab1/s12.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s12.png">
 
     
 ## 2.1.13
 
 If the quota has been applied - you supposed to see the value different from the **-1**.
 
-<img src="./resources/module2_lab1/s13.png" class="img_80_percent">
+<img src="./../assets/ca-images/module2_lab1/s13.png">
 
 
 # Enroll the SSH Public and Private keys. 
@@ -212,7 +217,7 @@ Copy the output to the clipboard.
 
 Login as **attendee-user**.
 
-<img src="./resources/module2_lab1/s16.png" class="img_60_percent">
+<img src="./../assets/ca-images/module2_lab1/s16.png">
 
     
 ## 2.1.17
@@ -221,21 +226,21 @@ Navigate to **Settings -> Security**.
 
 Press edit the **SSH public key**.
 
-<img src="./resources/module2_lab1/s17.png">
+<img src="./../assets/ca-images/module2_lab1/s17.png">
 
     
 ## 2.1.18
 
 Paste the key into the field.
 
-<img src="./resources/module2_lab1/s18.png">
+<img src="./../assets/ca-images/module2_lab1/s18.png">
 
     
 ## 2.1.19
 
 Click anywhere outside to save the key.
 
-<img src="./resources/module2_lab1/s19.png">
+<img src="./../assets/ca-images/module2_lab1/s19.png">
 
 
 ## 2.1.20
@@ -264,21 +269,22 @@ Go back to the **Settings** tab and locate the **SSH private key** field.
 
 Enter the editing mode of that field. 
 
-<img src="./resources/module2_lab1/s21.png">
+<img src="./../assets/ca-images/module2_lab1/s21.png">
 
 
 ## 2.1.22
 
 Paste the private key into the field.
 
-<img src="./resources/module2_lab1/s22.png">
+<img src="./../assets/ca-images/module2_lab1/s22.png">
 
 
 ## 2.1.23
 
 Press anywhere outside of that field to save it.
 
-<img src="./resources/module2_lab1/s23.png">
+<img src="./../assets/ca-images/module2_lab1/s23.png">
 
 
 # Congratulations, you've completed the assignment!
+{: .no_toc}

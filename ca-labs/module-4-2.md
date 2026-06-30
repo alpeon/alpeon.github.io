@@ -3,8 +3,14 @@ layout: default
 title: Lab 2 - Custom Probes
 parent: Module 4
 ---
-
 # Module 4 - Lab 2: Custom Probes
+{: .no_toc}
+
+## Table of Contents
+{: .no_toc}
+
+1. TOC
+{:toc}
 
 ## Objective(-s):
 
@@ -110,3 +116,4 @@ RESERVED_CPU=""
 ```
 
 # Congratulations, you've completed the assignment!
+{: .no_toc}

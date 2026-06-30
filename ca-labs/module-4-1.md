@@ -3,8 +3,14 @@ layout: default
 title: Lab 1 - Adjust the Monitoring Settings 
 parent: Module 4
 ---
+# Module 4 - Lab 1 : Adjust the Monitoring Settings  
+{: .no_toc}
 
-## Module 4 - Lab 1 : Adjust the Monitoring Settings  
+## Table of Contents
+{: .no_toc}
+
+1. TOC
+{:toc}
     
 ## Objective(-s):
 - Edit the monitord.conf.
@@ -58,3 +64,4 @@ systemctl restart opennebula
 ```
     
 # Congratulations, you've completed the assignment!
+{: .no_toc}

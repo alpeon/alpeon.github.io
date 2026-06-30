@@ -5,6 +5,13 @@ parent: Module 1
 ---
 
 # Module 1 - Lab 1 : Access the Sunstone Graphical UI
+{: .no_toc}
+
+## Table of Contents
+{: .no_toc}
+
+1. TOC
+{:toc}
 
 ## Objective(-s):
 
@@ -147,7 +154,7 @@ Copy the entire key - you are going to need it in the future steps
 
 In Sunstone - go to **Settings**.
 
-<img src="./resources/module1_lab1/s7.png" class="img_80_percent">
+<img src="./../assets/ca-images/module1_lab1/s7.png">
 
 
     
@@ -155,19 +162,20 @@ In Sunstone - go to **Settings**.
 
 In the Settings go to **Security**, locate the **SSH private key** field and press the edit button. 
 
-<img src="./resources/module1_lab1/s8.png" class="img_80_percent">
+<img src="./../assets/ca-images/module1_lab1/s8.png">
 
     
 ## 1.1.9
 
 Paste the certificate contents and click anywhere outside of the field.
 
-<img src="./resources/module1_lab1/s9.png" class="img_80_percent">
+<img src="./../assets/ca-images/module1_lab1/s9.png">
    
 ## 1.1.10
 
 The private key should be saved now.
 
-<img src="./resources/module1_lab1/s10.png" class="img_80_percent">
+<img src="./../assets/ca-images/module1_lab1/s10.png">
 
 # Congratulations, you've completed the assignment!
+{: .no_toc}

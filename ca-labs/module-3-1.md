@@ -3,8 +3,14 @@ layout: default
 title: Lab 1 - Create a Custom View
 parent: Module 3
 ---
+# Module 3 - Lab 1 : Create a Custom View
+{: .no_toc}
 
-# Module 3 - Lab 1 : Create a Custom View 
+## Table of Contents
+{: .no_toc}
+
+1. TOC
+{:toc}
     
     
 ## Objective(-s):
@@ -75,49 +81,50 @@ views:
 
 Return to Sunstone's Groups tab and press the **Update** button.
 
-<img src="./resources/module3_lab1/s4.png">
+<img src="./../assets/ca-images/module3_lab1/s4.png">
 
     
 ## 3.1.5
 
 Toggle the **Limited View** and press **Next**.
 
-<img src="./resources/module3_lab1/s5.png">
+<img src="./../assets/ca-images/module3_lab1/s5.png">
 
     
 ## 3.1.6
 
 Press **Finish**.
 
-<img src="./resources/module3_lab1/s6.png">
+<img src="./../assets/ca-images/module3_lab1/s6.png">
 
     
 ## 3.1.7
 
 Login as **attendee-user**.
 
-<img src="./resources/module3_lab1/s7.png">
+<img src="./../assets/ca-images/module3_lab1/s7.png">
 
     
 ## 3.1.8
 
 Note that the **Network** menu item is present!
 
-<img src="./resources/module3_lab1/s8.png">
+<img src="./../assets/ca-images/module3_lab1/s8.png">
 
     
 ## 3.1.9
 
 From the view switcher select the **limited_user** view.
 
-<img src="./resources/module3_lab1/s9.png">
+<img src="./../assets/ca-images/module3_lab1/s9.png">
 
     
 ## 3.1.10
 
 Now pay attendtion to the menu bar. The **Network** item should disappear.
 
-<img src="./resources/module3_lab1/s10.png">
+<img src="./../assets/ca-images/module3_lab1/s10.png">
 
     
 # Congratulations, you've completed the assignment!
+{: .no_toc}

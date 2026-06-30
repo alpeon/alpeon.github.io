@@ -2,12 +2,17 @@
 layout: default
 title: Module 0
 parent: Certified Administrator
-# nav_order: 1
 ---
+# Module 0 - Lab 0: Getting familiar with the Lab Environment
+{: .no_toc}
 
-## Module 0 - Lab 0: Getting familiar with the Lab Environment
+## Table of Contents
+{: .no_toc}
 
-#### FQDNs & Credentials
+1. TOC
+{:toc}
+
+# FQDNs & Credentials
 
 Your lab consists of 3 nodes:
 
@@ -20,7 +25,7 @@ Your lab consists of 3 nodes:
 
 where **X** is your unique lab number issued by the instructor.
 
-#### Access the Web GUI
+# Access the Web GUI
 
 The 1st Node is hosting the Frontend services including the Web GUI (Sunstone).
 

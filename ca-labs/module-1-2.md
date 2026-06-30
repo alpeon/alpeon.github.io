@@ -3,8 +3,14 @@ layout: default
 title: Lab 2 - Add Hosts
 parent: Module 1
 ---
-
 # Module 1 - Lab 2 : Add Hosts
+{: .no_toc}
+
+## Table of Contents
+{: .no_toc}
+
+1. TOC
+{:toc}
 
 ## Objective(-s):
 
@@ -109,3 +115,4 @@ onehost show -x lab-X-node3
 How does the output differs?
 
 # Congratulations, you've completed the assignment!
+{: .no_toc}
