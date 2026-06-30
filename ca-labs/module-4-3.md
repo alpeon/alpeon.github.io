@@ -45,7 +45,6 @@ Note that date/time in your output is going to be different.
 
 ```console
 tail -n10 /var/log/one/monitor.log
-
 Thu Apr 16 09:24:11 2026 [Z0][HMM][I]: Successfully monitored VM: 0
 Thu Apr 16 09:24:19 2026 [Z0][HMM][I]: Successfully monitored host: 1
 Thu Apr 16 09:24:19 2026 [Z0][HMM][I]: Successfully monitored host: 0
