@@ -11,7 +11,7 @@ parent: Module 4
 - Restart the opennebula daemon.
 
 
-> [!WARNING]
+{: .warning } 
 > The tasks in this section must be executed either with the elevated privileges. This guide assumes that you've switched to the "root" user!
     
     
