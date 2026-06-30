@@ -3,10 +3,15 @@ layout: default
 title: Lab 3 - Host Management
 parent: Module 4
 ---
-1. Table of Contents
+# Module 4 - Lab 3: Host Management
+{: .no_toc}
+
+## Table of Contents
+{: .no_toc}
+
+1. TOC
 {:toc}
 
-# Module 4 - Lab 3: Host Management
 
 ## Objective(-s):
 - Change the State of a Host with ID 0.
@@ -38,7 +43,7 @@ Tail the log file and locate messages that are similar to the highlighted below.
 
 Note that date/time in your output is going to be different.
 
-```console[1,10]
+```console
 tail -n10 /var/log/one/monitor.log
 
 Thu Apr 16 09:24:11 2026 [Z0][HMM][I]: Successfully monitored VM: 0
@@ -54,3 +59,4 @@ Thu Apr 16 09:25:18 2026 [Z0][HMM][I]: Successfully monitored host: 3
 ```
 
 # Congratulations, you've completed the assignment!
+{: .no_toc}
