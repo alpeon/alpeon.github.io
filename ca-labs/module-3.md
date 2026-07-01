@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Module 3
+title: Module 3 - Sunstone
 parent: Certified Administrator
 has_children: true
 ---

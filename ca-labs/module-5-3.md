@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 3 - Image Management
-parent: Module 5
+parent: Module 5 - Storage
 ---
 ## Module 5 - Lab 3 : Image Management
 {: .no_toc}

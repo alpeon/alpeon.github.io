@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Create a Custom View
-parent: Module 3
+parent: Module 3 - Sunstone
 ---
 # Module 3 - Lab 1 : Create a Custom View
 {: .no_toc}

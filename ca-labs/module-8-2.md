@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 2 - Building a Custom VM
-parent: Module 8
+parent: Module 8 - VM Templates & VMs
 ---
 # Module 8 - Lab 2 : Building a Custom VM
 

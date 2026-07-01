@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 3 - Deploy and Manage the VMs
-parent: Module 8
+parent: Module 8 - VM Templates & VMs
 ---
 # Module 8 - Lab 3 : Deploy and Manage the VMs
 

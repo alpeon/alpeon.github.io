@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 3 - Host Management
-parent: Module 4
+parent: Module 4 - Hosts
 ---
 # Module 4 - Lab 3: Host Management
 {: .no_toc}

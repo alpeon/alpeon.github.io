@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 2 - Security Groups
-parent: Module 6
+parent: Module 6 - Virtual Networks
 ---
 # Module 5 - Lab 2 : Security Groups
 {: .no_toc}

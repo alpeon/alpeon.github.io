@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - User Management
-parent: Module 2
+parent: Module 2 - Users, Groups & Permissions
 ---
 # Module 2 - Lab 1 : User Management
 {: .no_toc}

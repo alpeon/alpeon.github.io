@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Datastores
-parent: Module 5
+parent: Module 5 - Storage
 ---
 # Module 5 - Lab 1 : Datastores
 {: .no_toc}

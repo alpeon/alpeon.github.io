@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Cluster Management
-parent: Module 7
+parent: Module 7 - Clusters
 ---
 # Module 7 - Lab 1 : Cluster Management
 {: .no_toc}

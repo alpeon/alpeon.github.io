@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Virtual Networks
-parent: Module 6
+parent: Module 6 - Virtual Networks
 ---
 # Module 6 - Lab 1 : Virtual Networks
 {: .no_toc}

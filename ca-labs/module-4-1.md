@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Adjust the Monitoring Settings 
-parent: Module 4
+parent: Module 4 - Hosts
 ---
 # Module 4 - Lab 1 : Adjust the Monitoring Settings  
 {: .no_toc}

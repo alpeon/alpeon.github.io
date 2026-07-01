@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - VM Templates
-parent: Module 8
+parent: Module 8 - VM Templates & VMs
 ---
 # Module 8 - Lab 1 : VM Templates 
 

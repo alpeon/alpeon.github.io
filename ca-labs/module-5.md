@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Module 5
+title: Module 5 - Storage
 parent: Certified Administrator
 has_children: true
 ---
