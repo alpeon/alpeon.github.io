@@ -52,7 +52,7 @@ Set **Authentication Type** to **core**.
 
 Choose the password you wish and press **Next**.
 
-<img src="./../assets/ca-images/module2_lab1/s3.png">
+<img src="./../assets/ca-images/module2_lab1/s3.png" class="custom-border">
 
 
 ## 2.1.4
