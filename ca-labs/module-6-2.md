@@ -11,7 +11,7 @@ parent: Module 6
 
 <details markdown="block">
   <summary>
-    Table of Contents
+    Expand to access the In-page navigation
   </summary>
   {: .text-delta }
 1. TOC
@@ -98,3 +98,4 @@ Add the **App Group** and then remove the **default group**, then press **Finish
 <img src="./../assets/ca-images/module6_lab2/s11.png" class="img_80_percent">
     
 ### Congratulations, you've completed the assignment!
+{: .no_toc}

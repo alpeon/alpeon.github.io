@@ -12,7 +12,7 @@ parent: Module 1
 
 <details markdown="block">
   <summary>
-    Table of Contents
+    Expand to access the In-page navigation
   </summary>
   {: .text-delta }
 1. TOC

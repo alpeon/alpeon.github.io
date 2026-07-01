@@ -3,21 +3,21 @@ layout: default
 title: Lab 1 - Security Groups
 parent: Module 7
 ---
-
 # Module 7 - Lab 1 : Cluster Management
+{: .no_toc}
+
+## Table of Contents
 {: .no_toc}
 
 <details markdown="block">
   <summary>
-    Table of Contents
+    Expand to access the In-page navigation
   </summary>
   {: .text-delta }
 1. TOC
 {:toc}
 </details>
     
----
-<br>
     
 ## Objective(-s):
 - Create a Cluster.
@@ -75,4 +75,3 @@ You should have another cluster with two hosts.
     
 # Congratulations, you've completed the assignment!
 {: .no_toc}
-
