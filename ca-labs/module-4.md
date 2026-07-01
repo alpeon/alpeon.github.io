@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Module 4 - Hosts
+title: Module 4
 parent: Certified Administrator
 has_children: true
 ---

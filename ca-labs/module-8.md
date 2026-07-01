@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Module 8 - VM Templates & VMs
+title: Module 8
 parent: Certified Administrator
 has_children: true
 ---
