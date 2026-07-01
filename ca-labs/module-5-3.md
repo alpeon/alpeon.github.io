@@ -33,7 +33,7 @@ parent: Module 5
 
 Navigate to **Storage -> Apps** to access the list of available Images in the Marketplaces. 
 
-<img src="./../assets/ca-images/module5_lab3/s1.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s1.png">
 
     
 ## 5.3.2
@@ -42,28 +42,28 @@ In the search bar enter **Alpine Linux 3.21** and locate the **Alpine Linux 3.21
 
 Please select the **correct architecture**!
 
-<img src="./../assets/ca-images/module5_lab3/s2.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s2.png">
 
     
 ## 5.3.3
 
 Select the **Alpine Linux 3.21** with the correct architecture and press **Import** button.
 
-<img src="./../assets/ca-images/module5_lab3/s3.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s3.png">
 
     
 ## 5.3.4
 
 Keep the names as is, then proceed to the next page of the wizard.
 
-<img src="./../assets/ca-images/module5_lab3/s4.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s4.png">
 
     
 ## 5.3.5
 
 From the datastores select the **default** one and press **Finish**.
 
-<img src="./../assets/ca-images/module5_lab3/s5.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s5.png">
 
     
 ## 5.3.6
@@ -149,14 +149,14 @@ file <SOURCE> |  cut -d ':' -f 2
 
 Navigate to the **Storage -> Images**.
 
-<img src="./../assets/ca-images/module5_lab3/s10.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s10.png">
 
     
 ## 5.3.11
 
 Press **Create** to start the wizard.
 
-<img src="./../assets/ca-images/module5_lab3/s11.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s11.png">
 
     
 ## 5.3.12
@@ -165,28 +165,28 @@ Name image as **Alpine Linux DB Server**.
 
 Set the URL to https://one-training-files.s3.eu-central-1.amazonaws.com/alpine_db_server.qcow2
 
-<img src="./../assets/ca-images/module5_lab3/s12.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s12.png">
 
     
 ## 5.3.13
 
 Select the **default** cluster.
 
-<img src="./../assets/ca-images/module5_lab3/s13.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s13.png">
 
     
 ## 5.3.14
 
 Set the **BUS** to **Virtio**.
 
-<img src="./../assets/ca-images/module5_lab3/s14.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s14.png">
 
 
 ## 5.3.15
 
 Keep the **Custom Atributes**  empty and press **Finish**
 
-<img src="./../assets/ca-images/module5_lab3/s15.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s15.png">
 
     
 ## 5.3.16
@@ -282,14 +282,14 @@ In Sunstone on the Images page select **Alpine Linux 3.21** and **Ubuntu 24.04**
 
 Then from the drop-down list select **Persistent**.
 
-<img src="./../assets/ca-images/module5_lab3/s20.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s20.png">
 
     
 ## 5.3.21
 
 You should end up with four images, two of them must be **Persistent**. 
 
-<img src="./../assets/ca-images/module5_lab3/s21.png" class="img_80_percent">
+<img src="./../assets/ca-images/module5_lab3/s21.png">
     
 # Congratulations, you've completed the assignment!
 {: .no_toc}

@@ -30,14 +30,14 @@ parent: Module 8
 
 From the Dashboard press **VM Templates** shortcut button to access the VM Template management screen.
 
-<img src="./../assets/ca-images/module8_lab1/s1.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s1.png">
 
     
 ## 8.1.2
 
 Select the **Alpine Linux 3.XX** VM Template and press **Clone**.
 
-<img src="./../assets/ca-images/module8_lab1/s2.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s2.png">
 
     
 ## 8.1.3
@@ -46,49 +46,49 @@ Name it as **alpine-db-server** and press **Accept**.
 
 Make sure that **Clone with images remains unchecked!**
 
-<img src="./../assets/ca-images/module8_lab1/s3.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s3.png">
 
     
 ## 8.1.4
 
 Select the **alpine-db-server** VM Template and press the *8Update** button.
 
-<img src="./../assets/ca-images/module8_lab1/s4.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s4.png">
 
     
 ## 8.1.5
 
 Change the **Memory** value from **256** to **1024** and proceed ot the **Next** step of the wizard.
 
-<img src="./../assets/ca-images/module8_lab1/s5.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s5.png">
 
 
 ## 8.1.6
     
 Under **Storage** locate the **Alpine Linux 3.XX** disk and press **Edit**. 
 
-<img src="./../assets/ca-images/module8_lab1/s6.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s6.png">
 
     
 ## 8.1.7
 
 In the Image selector pick **Alpine Linux DB Server**.
 
-<img src="./../assets/ca-images/module8_lab1/s7.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s7.png">
 
     
 ## 8.1.8
 
 Change the **Size on the instantiate** from **512** to **5120** and press **Finish**.
 
-<img src="./../assets/ca-images/module8_lab1/s8.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s8.png">
 
     
 ## 8.1.9
 
 Once saved, you should see that the name and size were changed.
 
-<img src="./../assets/ca-images/module8_lab1/s9.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s9.png">
 
 
     
@@ -98,28 +98,28 @@ Navigate to the **Network** section and locate the **NIC0**.
 
 Press the **Attach NIC* button. 
 
-<img src="./../assets/ca-images/module8_lab1/s10.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s10.png">
 
     
 ## 8.1.11
 
 Toggle the **SSH connection** under the **Guacamole Connections** section.
 
-<img src="./../assets/ca-images/module8_lab1/s11.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s11.png">
 
     
 ## 8.1.12
 
 On the next page select the **isolated** network then proceed through other pages without changes and save changes.
 
-<img src="./../assets/ca-images/module8_lab1/s12.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s12.png">
 
     
 ## 8.1.13
 
 You should end up having the **NIC0: isolated** attached with the **SSH** label.
 
-<img src="./../assets/ca-images/module8_lab1/s13.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s13.png">
 
     
 ## 8.1.14
@@ -134,14 +134,14 @@ Add the following code to the **Start script** field and proceed to the next pag
 ```console
 rc-service mariadb start
 ```
-<img src="./../assets/ca-images/module8_lab1/s15.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s15.png">
 
     
 ## 8.1.16
 
 Keep it as is and press the **Finish** button.
 
-<img src="./../assets/ca-images/module8_lab1/s16.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s16.png">
 
 
 ### Update the Ubuntu 24.04 VM Template.
@@ -151,14 +151,14 @@ Keep it as is and press the **Finish** button.
 
 Select **Ubuntu 24.04** and press the **edit** button to edit the Name field.
 
-<img src="./../assets/ca-images/module8_lab1/s17.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s17.png">
 
     
 ## 8.1.18
 
 Name it as **ubuntu-application** and press the check button.
 
-<img src="./../assets/ca-images/module8_lab1/s18.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s18.png">
 
 
 
@@ -166,42 +166,42 @@ Name it as **ubuntu-application** and press the check button.
 
 Select the **ubuntu-application** and press the **Update** button. 
 
-<img src="./../assets/ca-images/module8_lab1/s19.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s19.png">
 
     
 ## 8.1.20
 
 Change the **Memory** value from **768** to **2048** and proceed ot the **Next** step of the wizard.
 
-<img src="./../assets/ca-images/module8_lab1/s20.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s20.png">
 
 
 ## 8.1.21
 
 Navigate to the **Network** section and press the **Attach** button.
 
-<img src="./../assets/ca-images/module8_lab1/s21.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s21.png">
 
 
 ## 8.1.22
 
 Toggle the **SSH connection** under the **Guacamole Connections** section.
 
-<img src="./../assets/ca-images/module8_lab1/s22.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s22.png">
 
 
 ## 8.1.23
 
 On the next page select the **isolated** network then proceed through other pages without changes and save changes. 
 
-<img src="./../assets/ca-images/module8_lab1/s23.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s23.png">
 
 
 ## 8.1.24
 
 You should end up having the **NIC0: isolated** attached with the **SSH** label. 
 
-<img src="./../assets/ca-images/module8_lab1/s24.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s24.png">
 
 
 # Attach another vNIC
@@ -216,7 +216,7 @@ Perform this task on your own without any guidance!
 
 Switch to the **Context** tab and toggle the **Add OneGate token**.
 
-<img src="./../assets/ca-images/module8_lab1/s25.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s25.png">
 
 
 ## 8.1.26
@@ -244,7 +244,7 @@ onegate vm update $VMID --data CFD_URL=$CFD
 
 Your **Start script** field must look like the one on the picture below.
 
-<img src="./../assets/ca-images/module8_lab1/s28.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s28.png">
 
     
 ## 8.1.29
@@ -263,7 +263,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./../assets/ca-images/module8_lab1/s29.png" class="img_60_percent">
+<img src="./../assets/ca-images/module8_lab1/s29.png">
 
 
 ## 8.1.30
@@ -282,7 +282,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./../assets/ca-images/module8_lab1/s30.png" class="img_60_percent">
+<img src="./../assets/ca-images/module8_lab1/s30.png">
 
     
 ## 8.1.31
@@ -301,7 +301,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./../assets/ca-images/module8_lab1/s31.png" class="img_60_percent">
+<img src="./../assets/ca-images/module8_lab1/s31.png">
 
     
 ## 8.1.32
@@ -318,7 +318,7 @@ Toggle the **Mandatory** switch.
 
 Press **+ Add**
 
-<img src="./../assets/ca-images/module8_lab1/s32.png" class="img_60_percent">
+<img src="./../assets/ca-images/module8_lab1/s32.png">
 
     
 ## 8.1.33
@@ -337,28 +337,28 @@ Keep  **Mandatory** switch un-toggled.
 
 Press **+ Add**
 
-<img src="./../assets/ca-images/module8_lab1/s33.png" class="img_60_percent">
+<img src="./../assets/ca-images/module8_lab1/s33.png">
 
     
 ## 8.1.34
 
 You should have 5 variables in the list.
 
-<img src="./../assets/ca-images/module8_lab1/s34.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s34.png">
 
     
 ## 8.1.35
 
 Navigate further down and expand the **Context Custom Variables** section.
 
-<img src="./../assets/ca-images/module8_lab1/s35.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s35.png">
 
 
 ## 8.1.36
 
 Set the Variable name **SET_HOSTNAME** and map it to the **$NAME** value.
 
-<img src="./../assets/ca-images/module8_lab1/s36.png" class="img_70_percent">
+<img src="./../assets/ca-images/module8_lab1/s36.png">
 
 
 # Adjust Permissions for VM Templates and Images.
@@ -398,7 +398,7 @@ oneimage chmod <LOWEST ID>...<HIGHEST ID> 644
 
 Navigate to the **Custom Variables** page and press the **Finish** button.
 
-<img src="./../assets/ca-images/module8_lab1/s39.png" class="img_80_percent">
+<img src="./../assets/ca-images/module8_lab1/s39.png">
     
 # Congratulations, you've completed the assignment!
 {. no_toc}
