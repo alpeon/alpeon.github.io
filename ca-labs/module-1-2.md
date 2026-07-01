@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 2 - Add Hosts
-parent: Module 1
+parent: Module 1 - Architecture and Deployment
 ---
 # Module 1 - Lab 2 : Add Hosts
 {: .no_toc}

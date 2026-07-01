@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab 1 - Access the Sunstone Graphical UI
-parent: Module 1
+parent: Module 1 - Architecture and Deployment
 ---
 
 # Module 1 - Lab 1 : Access the Sunstone Graphical UI
