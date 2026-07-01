@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Module 3
+title: Module 03 - Sunstone
 parent: Certified Administrator
 has_children: true
 ---
 
-# Module 3 - Sunstone
+# Module 03 - Sunstone

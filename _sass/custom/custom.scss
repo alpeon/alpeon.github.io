@@ -3,3 +3,6 @@
     width: calc((70% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
   }
 }
+
+img { 
+  border: 2px solid #ddd; }
