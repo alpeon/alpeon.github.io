@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Module 0
+title: Module 0 - Getting familiar with the Lab Environment 
 parent: Certified Administrator
 ---
 # Module 0 - Lab 0: Getting familiar with the Lab Environment
