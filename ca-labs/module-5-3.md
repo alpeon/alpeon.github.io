@@ -9,7 +9,7 @@ parent: Module 5
 ## Table of Contents
 {: .no_toc}
 
-<details open markdown="block">
+<details markdown="block">
   <summary>
     Table of Contents
   </summary>
@@ -110,7 +110,7 @@ Use the oneimage Command Line to show the extended information on the Alpine Lin
 
 Copy the **SOURCE** value.
 
-```console[1,11]
+```console
 oneimage show 0
 
 IMAGE 0 INFORMATION
@@ -193,7 +193,7 @@ Keep the **Custom Atributes**  empty and press **Finish**
 
 Return to Node 1's Command Line and extract the ID of a newly added Image. 
 
-```console[1,4]
+```console
 oneimage list --filter NAME~DB
 
 ID USER     GROUP    NAME                        DATASTORE     SIZE TYPE PER STAT RVMS
@@ -231,7 +231,7 @@ ID: 3
 
 Use **oneimage show** to extract extract the path to the actual Image.
 
-```console[1,7]
+```console
 oneimage show 3
 
 IMAGE 2 INFORMATION

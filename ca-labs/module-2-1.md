@@ -9,8 +9,14 @@ parent: Module 2
 ## Table of Contents
 {: .no_toc}
 
+<details markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Objective(-s):
 - Create a new User Group with Administrator.

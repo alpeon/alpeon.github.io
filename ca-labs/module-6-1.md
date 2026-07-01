@@ -9,8 +9,14 @@ parent: Module 6
 ## Table of Contents
 {: .no_toc}
 
+<details markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
 1. TOC
-{:toc}  
+{:toc}
+</details>  
     
 ## Objective(-s):
 - Create a routable Virtual Network with VXLAN type.
@@ -23,7 +29,7 @@ parent: Module 6
 
 Connect to either of the Hypervisor Nodes using the SSH and execute the **ip** command.
 
-```console[1,4]
+```console
 ip -br a
 
 lo     UNKNOWN    127.0.0.1/8 ::1/128
@@ -105,7 +111,7 @@ Switch to the Node 1's Command Line and create a file named **isolated.conf** an
 
 Set the size and the first IP address to the values you wish making sure you have at least 10 spare IPs.
 
-```console[]
+```console
 NAME="isolated"
 GUEST_MTU="1450"
 IP_LINK_CONF="nolearning="
@@ -121,7 +127,7 @@ AR=[TYPE = "IP4", IP = "<FIRST_IP>", SIZE = "<SIZE>" ]
 
 Use the **onevnet** command to create the isolated network.
 
-```console[]
+```console
 onevnet create isolated.conf
 
 ID: 1
@@ -129,14 +135,13 @@ ID: 1
 
 You should end up with two virtual networks.
 
-```console[]
+```console
 onevnet list
 
 ID USER     GROUP    NAME     CLUSTERS   BRIDGE       STATE        LEASES OUTD ERRO
 1 oneadmin oneadmin isolated  0          onebr1       rdy               0    0    0
 0 oneadmin oneadmin routable   0          onebr.15     rdy               0    0    0
 ```
-
     
 # Congratulations, you've completed the assignment!
 {: .no_toc}

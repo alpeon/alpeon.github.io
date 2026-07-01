@@ -9,8 +9,14 @@ parent: Module 5
 ## Table of Contents
 {: .no_toc}
 
+<details markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Objective(-s):
 
@@ -28,7 +34,7 @@ Copy the Public Key from the Host 1 to the Backup Server. Please **note the user
 
 You are going to be prompted to enter the password!
 
-```console[1,5,7,9,10]
+```console
 ssh-copy-id backup-admin@<your backup server IP>
 /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/var/lib/one/.ssh/id_rsa.pub"
 /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
