@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://alpeon.github.io"
 back_to_top: true
 back_to_top_text: "Up!"
-theme: ons
+color_scheme: ons
 callouts:
   note:
     title: Note
