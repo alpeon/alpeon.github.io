@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lab 1 - Security Groups
+title: Lab 1 - Cluster Management
 parent: Module 7
 ---
 # Module 7 - Lab 1 : Cluster Management

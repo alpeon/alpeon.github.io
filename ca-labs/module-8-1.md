@@ -204,7 +204,12 @@ You should end up having the **NIC0: isolated** attached with the **SSH** label.
 <img src="./../assets/ca-images/module8_lab1/s24.png" class="img_80_percent">
 
 
-### Attach another vNIC, but this time place it into the "routable" virtual network.
+# Attach another vNIC
+
+Perform this task on your own without any guidance!
+
+{: .warning}
+> This time place it into the "routable" virtual network.
 
     
 ## 8.1.25
@@ -356,7 +361,7 @@ Set the Variable name **SET_HOSTNAME** and map it to the **$NAME** value.
 <img src="./../assets/ca-images/module8_lab1/s36.png" class="img_70_percent">
 
 
-### Adjust Permissions for VM Templates and Images.
+# Adjust Permissions for VM Templates and Images.
 
     
 ## 8.1.37
