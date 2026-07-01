@@ -9,9 +9,14 @@ parent: Module 5
 ## Table of Contents
 {: .no_toc}
 
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
-    
+</details>
     
 ## Objective(-s):
 - Download an Image from the Marketplace.

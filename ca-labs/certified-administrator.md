@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Certified Administrator
+parent: Home
 has_children: true
 nav_order: 1
 ---

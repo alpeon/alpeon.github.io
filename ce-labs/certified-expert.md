@@ -2,6 +2,7 @@
 layout: default
 title: Certified Expert
 has_children: true
+parent: Home
 nav_order: 2
 ---
 
