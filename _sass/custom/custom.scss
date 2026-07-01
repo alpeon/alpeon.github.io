@@ -3,11 +3,3 @@
     width: calc((70% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
   }
 }
-
-.main-content {
-  img {
-    border: 3px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box; 
-  }
-}
